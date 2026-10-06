@@ -1,0 +1,45 @@
+
+# def multi_func():
+#   result = int(input()) * 5
+#   return result     
+
+# # print(result)
+# print(multi_func())
+
+# def multi_func(num1,num2):
+#     return num1 *num2 
+# print ( multi_func(5 , num1= 10) )
+
+
+# def my_function(*students):
+#   print("The tallest student is " + students[2])
+
+# my_function("James", "Ella", "Jackson")
+
+#List as argument - to print even numbers
+# def get_even_func(numbers):
+#     even_numbers = [num for num in numbers if not num % 2]
+#     return even_numbers
+
+# print(get_even_func([1, 2, 3, 4, 5, 6]))
+
+#Calculate the sum
+# def calculate_sum(numbers):
+#     return sum(numbers)
+
+# numbers = [10, 20, 30, 40]
+
+# print(calculate_sum(numbers))
+
+# def sum(*args):
+#     for arg in args:
+#         result += arg
+#     return result 
+
+# print(sum(2,3,1))
+
+
+def my_function(*ages):
+  print("The older friend is " + ages[0] + " years")
+
+my_function("13", "12", "11")

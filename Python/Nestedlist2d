@@ -1,0 +1,31 @@
+#Student marks
+students = [
+    ["Rahul", 85, 90, 78],
+    ["Priya", 92, 88, 95],
+    ["Amit", 76, 80, 72]
+]
+
+print(students[0])
+print(students[0][1])
+
+#Monthly expenses
+expenses = [
+    ["January", 15000],
+    ["February", 17000],
+    ["March", 14000]
+]
+
+for expense in expenses:
+    print(expense[0],expense[1])
+
+#Real world example 
+students = [
+    ["Rahul", 85, 90, 78],
+    ["Priya", 92, 88, 95],
+    ["Amit", 76, 80, 72]
+]
+
+for student in students:
+    for item in student:
+        print(item, end=" ")
+    print()

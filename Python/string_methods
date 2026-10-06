@@ -1,0 +1,33 @@
+
+# # find - Retuns the index of the first occurence of the provided character
+# print("hello world!".find("x"))
+# print("hello world!".find("x"))
+
+# print("hello world!".find("r",4,10))
+
+# #rfind - Returns the index of the last occrance of the provided character
+# print("hello world!".rfind.("o"))
+
+# txt = "Company123!ψ"
+# x = txt.isascii()
+# print(x)
+
+# a = "\u0030" #unicode for 0
+# b = "\u00B2" #unicode for ²
+# c = "-5"
+# d = "5.5"
+# print(a.isnumeric())
+# print(b.isnumeric())
+# print(c.isnumeric())
+# print(d.isnumeric())
+
+
+# chars = "1234"
+# char = ""
+# for char in reversed(chars):
+#     char += char
+
+# print(char)
+
+movie = "My    beautiful\n laundrette!"
+print(movie.split())

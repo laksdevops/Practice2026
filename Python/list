@@ -1,0 +1,10 @@
+#sum of ages and then average
+# ages = [20,30,40,50]
+# print(sum(ages))
+# avg_ages = sum(ages)/len(ages)
+# print(avg_ages)
+
+l = [3.3, 2.225, 1, 9.30, 0.64, 5.5]
+l.sort(reverse=True)
+print(l)
+

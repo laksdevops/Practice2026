@@ -1,0 +1,34 @@
+# servers = [
+#     [
+#         ["devapp01", 80, 90],
+#         ["devdb01", 70, 85]
+#     ],
+#     [
+#         ["prodapp01", 95, 92],
+#         ["proddb01", 88, 90]
+#     ]
+# ]
+
+# # print(servers[0])
+# # print(servers[0][1])
+# print(servers[0][1][2])
+
+# Nested for loop
+company = [
+    [
+        ["Rahul", 5, 80000],
+        ["Priya", 3, 60000]
+    ],
+    [
+        ["Amit", 8, 100000],
+        ["John", 4, 70000]
+    ]
+]
+
+print(company[0][0][2])
+
+for department in company:
+    for employee in department:
+        for item in employee:
+            print(item, end=" ")
+        print()

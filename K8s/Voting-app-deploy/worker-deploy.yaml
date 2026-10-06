@@ -1,0 +1,23 @@
+metadata:
+  name: worker-deploy
+  labels: 
+    app: worker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+     app: worker  
+  template:
+    metadata:
+      name: worker-pod
+      labels: 
+        app: worker
+    spec:
+      containers:
+        - name: worker-container
+          image: dockersamples/examplevotingapp_worker 
+          ports:
+            - containerPort: 80
+              name: worker-http
+    
+  
